@@ -1,0 +1,37 @@
+.Sidebar{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.Sidebar>h5{
+  margin-left: 10px;
+  font-weight: 400px;
+
+}
+
+.Sidebar>.MuiSvgIcon-root{
+  width: 25px;
+}
+
+.Sidebar:hover{
+background-color: gray;
+cursor: pointer;
+color: white;
+}
+
+.Sidebar:hover>.MuiSvgIcon-root{
+  color: red;
+}
+
+.Sidebar.selected{
+  background-color: gray;
+}
+
+.Sidebar.selected>.MuiSvgIcon-root{
+  color: red;
+}
+
+.Sidebar.selected>.title{
+color: white;
+font-style: bold;
+}
