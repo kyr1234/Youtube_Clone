@@ -1,43 +1,42 @@
-.image{
- width: 250px;
+.image {
+  width: 250px;
   height: 150px;
 }
-.avatit{
+.avatit {
   display: flex;
 }
 
-
-.Videodesc{
-    margin-right: 25px !important;
-    margin-top: 15px !important;
-    margin-left: 30px; 
-    width: 270px;
+.Videodesc {
+  margin-right: 25px !important;
+  margin-top: 15px !important;
+  margin-left: 30px;
+  width: 270px;
 }
 
-.desc{
+.desc {
   display: flex;
   align-items: center;
 }
 
-.desc>h5{
+.desc > h5 {
   margin-left: 15px;
 }
 
-.viewdes{
+.viewdes {
   display: flex;
 }
 
-.viewdes>p{
+.viewdes > p {
   margin-top: 3px !important;
   margin-bottom: 3px !important;
-  font-weight:bold;
+  font-weight: bold;
 }
-.channel{
+.channel {
   color: gray;
-font-weight: bold;
-margin-top: 10px;
-margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.viewdes>.time{
+.viewdes > .time {
   margin-left: 60px;
 }

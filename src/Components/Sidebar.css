@@ -1,12 +1,11 @@
-
-.sidebar{
+.sidebar {
   flex: 0.2;
   height: auto;
-  background-color: #Fdfcfa;
+  background-color: #fdfcfa;
 }
 
-.sidebar>hr{
-  height:4px;
+.sidebar > hr {
+  height: 4px;
   border: 0px;
   background-color: lightgray;
   margin-top: 10px;

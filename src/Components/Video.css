@@ -1,12 +1,11 @@
-.Video{
+.Video {
   flex: 0.8;
-  background-color: #FAF9F6;
+  background-color: #faf9f6;
   padding: 40px 40px;
   padding-bottom: 0px;
 }
 
-.videocoll{
+.videocoll {
   display: flex;
-  flex-wrap:wrap; 
+  flex-wrap: wrap;
 }
-

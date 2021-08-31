@@ -1,0 +1,26 @@
+.SearchPage {
+  flex: 0.8;
+  padding: 15px 25px;
+  background-color: #f9f9f9;
+}
+hr {
+  height: 3px;
+  border: 0px;
+  background-color: gray;
+}
+
+.filter_tag {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: large;
+}
+
+.filter_tag > h5 {
+  margin-left: 10px;
+}
+
+.heading {
+  margin-top: 18px;
+  margin-left: 30px;
+}

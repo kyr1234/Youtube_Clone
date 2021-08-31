@@ -1,0 +1,46 @@
+.VideoSearchModal {
+  display: flex;
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  max-width: 80%;
+}
+
+.img {
+  object-fit: contain;
+  height: 200px;
+  max-width: 60%;
+  min-height: 40%;
+}
+
+.channel_desc {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.channel_desc > h3 {
+  margin-left: 25px;
+}
+
+.Contents {
+  margin-left: 20px;
+  max-width: 70%;
+  max-height: 60%;
+  min-height: 10%;
+}
+
+.channel_views {
+  display: flex;
+  width: 35%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.views {
+  display: flex;
+}
+.views > .timestamp {
+  margin-left: 25px;
+}

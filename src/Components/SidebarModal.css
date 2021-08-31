@@ -1,37 +1,36 @@
-.Sidebar{
+.Sidebar {
   display: flex;
   align-items: center;
   padding: 15px;
 }
-.Sidebar>h5{
+.Sidebar > h5 {
   margin-left: 10px;
   font-weight: 400px;
-
 }
 
-.Sidebar>.MuiSvgIcon-root{
+.Sidebar > .MuiSvgIcon-root {
   width: 25px;
 }
 
-.Sidebar:hover{
-background-color: gray;
-cursor: pointer;
-color: white;
+.Sidebar:hover {
+  background-color: gray;
+  cursor: pointer;
+  color: white;
 }
 
-.Sidebar:hover>.MuiSvgIcon-root{
+.Sidebar:hover > .MuiSvgIcon-root {
   color: red;
 }
 
-.Sidebar.selected{
+.Sidebar.selected {
   background-color: gray;
 }
 
-.Sidebar.selected>.MuiSvgIcon-root{
+.Sidebar.selected > .MuiSvgIcon-root {
   color: red;
 }
 
-.Sidebar.selected>.title{
-color: white;
-font-style: bold;
+.Sidebar.selected > .title {
+  color: white;
+  font-style: bold;
 }

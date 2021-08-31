@@ -1,0 +1,29 @@
+.Channel_desc > .avatar {
+  width: 150px;
+  height: 150px;
+}
+.Channel_desc {
+  display: flex;
+  background-image: linear-gradient(blue, lightblue);
+  padding: 15px 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.details > h2 {
+  letter-spacing: 3px;
+  margin-left: 20px;
+  color: white;
+}
+
+.details > h4 {
+  margin-left: 8px;
+  margin-top: 5px;
+  color: white;
+  max-width: 80%;
+}
